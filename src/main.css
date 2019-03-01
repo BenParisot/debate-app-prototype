@@ -23,12 +23,12 @@
     font-size: 90px;
 }
 
-#candidate-detail {
+.candidate-detail {
     width: 600px;
     text-align: center;
 }
 
-#candidate-detail h2 {
+.candidate-detail h2 {
     font-size: 36px;
     line-height: .3;
     text-transform: uppercase;

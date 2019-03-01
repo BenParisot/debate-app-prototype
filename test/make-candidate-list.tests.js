@@ -13,12 +13,12 @@ test('create html list of candidates using template and interpolation', assert =
 
     const expected = `
     <li>
-                <button id="minus-one"> - </button>
-                <section id="candidate-detail">
+                <button id="${candidate.id}-minus-one"> - </button>
+                <section class="candidate-detail">
                     <img src="./assets/candidates-booker.jpg">
                     <h2>Booker</h2>
                 </section>
-                <button id="plus-one"> + </button>
+                <button id="${candidate.id}-plus-one"> + </button>
             </li>`;
 
     const result = makeCandidateList(candidate);
