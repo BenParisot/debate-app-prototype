@@ -1,5 +1,6 @@
 export default function sortCandidatesByDebateScore(candidates) {
-    return candidates.sort((a, b) => {
+    const newCandidatesArray = candidates.slice();
+    return newCandidatesArray.sort((a, b) => {
         if(a.debateScore === b.debateScore) {
             return 0;
         }
