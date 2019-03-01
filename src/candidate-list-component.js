@@ -3,7 +3,7 @@ export default function makeCandidateList(candidate) {
     <li>
                 <button id="minus-one"> - </button>
                 <section id="candidate-detail">
-                    <img src="${candidate.imageURL}">
+                    <img src="${candidate.image}">
                     <h2>${candidate.lastName}</h2>
                 </section>
                 <button id="plus-one"> + </button>

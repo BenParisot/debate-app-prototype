@@ -4,7 +4,7 @@ const test = QUnit.test;
 const candidate = {
     firstName: 'Cory',
     lastName: 'Booker',
-    imageURL: './assets/candidates-booker.jpg',
+    image: './assets/candidates-booker.jpg',
     debateScore: 0,
     debateWins: 0
 };

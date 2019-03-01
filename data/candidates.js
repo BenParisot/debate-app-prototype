@@ -2,7 +2,7 @@ const candidates = [
     {
         firstName: 'Jay',
         lastName: 'Inslee',
-        imageURL: './assets/candidates-inslee.jpg',
+        image: './assets/candidates-inslee.jpg',
         debateScore: 0,
         debateWins: 0
     },
