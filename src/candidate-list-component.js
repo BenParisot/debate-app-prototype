@@ -16,6 +16,9 @@ export function makeCandidateList(candidate) {
 
 export default function loadCandidates(candidates) {
     const candidateListNode = document.getElementById('candidates-list');
+    while(candidateListNode.children.length > 0) {
+        candidateListNode.lastElementChild.remove();
+    }
 
     candidates.forEach(candidate => {
         const candidateLi = makeCandidateList(candidate);
