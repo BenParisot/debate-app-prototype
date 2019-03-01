@@ -1,0 +1,35 @@
+#candidates-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#candidates-list li {
+    display: flex;
+    flex-direction: row;
+}
+
+#candidates-list li:nth-child(odd) {
+    background: blue;
+    color: white;
+}
+
+#candidates-list li:nth-child(even) {
+    color: blue;
+}
+
+#candidates-list button {
+    width: 200px;
+    font-size: 90px;
+}
+
+#candidate-detail {
+    width: 600px;
+    text-align: center;
+}
+
+#candidate-detail h2 {
+    font-size: 36px;
+    line-height: .3;
+    text-transform: uppercase;
+}
