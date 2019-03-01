@@ -1,5 +1,6 @@
 import candidates from '../data/candidates.js';
 import loadCandidates from './candidate-list-component.js';
+import scoreCandidates from './score-plus-minus-component.js';
 
 export default function startDebate() {
     const startDebateButtonNode = document.getElementById('start-debate');    
@@ -8,6 +9,6 @@ export default function startDebate() {
             candidate.debateScore = 0;
         });
         loadCandidates(candidates);
-        console.log(candidates);
+        scoreCandidates(candidates);
     });
 }
