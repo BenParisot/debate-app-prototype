@@ -1,9 +1,6 @@
 import candidates from '../data/candidates.js';
-import makeCandidateList from './candidate-list-component.js';
+import loadCandidates from './candidate-list-component.js';
 
-const candidateListNode = document.getElementById('candidates-list');
+loadCandidates(candidates);
 
-candidates.forEach(candidate => {
-    const candidateLi = makeCandidateList(candidate);
-    candidateListNode.appendChild(candidateLi);
-})
+

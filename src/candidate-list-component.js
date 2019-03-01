@@ -1,4 +1,4 @@
-export default function makeCandidateList(candidate) {
+export function makeCandidateList(candidate) {
     const html = `
     <li>
                 <button id="minus-one"> - </button>
@@ -12,4 +12,13 @@ export default function makeCandidateList(candidate) {
     const template = document.createElement('template');
     template.innerHTML = html;
     return template.content;
+}
+
+export default function loadCandidates(candidates) {
+    const candidateListNode = document.getElementById('candidates-list');
+
+    candidates.forEach(candidate => {
+        const candidateLi = makeCandidateList(candidate);
+        candidateListNode.appendChild(candidateLi);
+    });
 }

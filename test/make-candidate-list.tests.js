@@ -1,4 +1,4 @@
-import makeCandidateList from '../src/candidate-list-component.js';
+import { makeCandidateList } from '../src/candidate-list-component.js';
 const test = QUnit.test;
 
 const candidate = {
