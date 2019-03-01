@@ -1,109 +1,102 @@
-const candidates [
+const candidates = [
     {
         firstName: 'Jay',
         lastName: 'Inslee',
-        image: 
+        imageURL: './assets/candidates-inslee.jpg',
         debateScore: 0,
         debateWins: 0
-    }
+    },
     {
         firstName: 'Bernie',
         lastName: 'Sanders',
-        image: 
-        debateScore:
-        debateWins:
-    }
-    {
-        firstName: 'Amy',
-        lastName: 'Klobuchar'
-        image: 
+        image: './assets/candidates-sanders.jpg',
         debateScore: 0,
         debateWins: 0
-    }
+    },
+    {
+        firstName: 'Amy',
+        lastName: 'Klobuchar',
+        image: './assets/candidates-klobuchar.jpg',
+        debateScore: 0,
+        debateWins: 0
+    },
     {
         firstName: 'Elizabeth',
         lastName: 'Warren',
-        image: 
+        image: './assets/candidates-warren.jpg',
         debateScore: 0,
         debateWins: 0
-    }
+    },
     {
-        firstName:
-        lastName:
-        image: 
+        firstName: 'Cory',
+        lastName: 'Booker',
+        image: './assets/candidates-booker.jpg',
         debateScore: 0,
         debateWins: 0
-    }
+    },
     {
-        firstName:
-        lastName:
-        image: 
+        firstName: 'Kamala',
+        lastName: 'Harris',
+        image: './assets/candidates-harris.jpg',
         debateScore: 0,
         debateWins: 0
-    }
+    },
     {
-        firstName:
-        lastName:
-        image: 
+        firstName: 'Julian',
+        lastName: 'Castro',
+        image: './assets/candidates-castro.jpg',
         debateScore: 0,
         debateWins: 0
-    }
+    },
     {
-        firstName:
-        lastName:
-        image: 
+        firstName: 'Tulsi',
+        lastName: 'Gabbard',
+        image: './assets/candidates-gabbard.jpg',
         debateScore: 0,
         debateWins: 0
-    }
+    },
     {
-        firstName:
-        lastName:
-        image: 
+        firstName: 'Richard',
+        lastName: 'Ojeda',
+        image: './assets/candidates-ojeda.jpg',
         debateScore: 0,
         debateWins: 0
-    }
+    },
     {
-        firstName:
-        lastName:
-        image: 
+        firstName: 'John',
+        lastName: 'Delaney',
+        image: './assets/candidates-delaney.jpg',
         debateScore: 0,
         debateWins: 0
-    }
+    },
     {
-        firstName:
-        lastName:
-        image: 
+        firstName: 'Marianne',
+        lastName: 'Williamson',
+        image: './assets/candidates-williamson.jpg',
         debateScore: 0,
         debateWins: 0
-    }
+    },
     {
-        firstName:
-        lastName:
-        image: 
+        firstName: 'Andrew',
+        lastName: 'Yang',
+        image: './assets/candidates-yang.jpg',
         debateScore: 0,
         debateWins: 0
-    }
+    },
     {
-        firstName:
-        lastName:
-        image: 
+        firstName: 'Kirsten',
+        lastName: 'Gillibrand',
+        image: './assets/candidates-gillibrand.jpg',
         debateScore: 0,
         debateWins: 0
-    }
+    },
     {
-        firstName:
-        lastName:
-        image: 
+        firstName: 'Pete',
+        lastName: 'Buttigieg',
+        image: './assets/candidates-buttigieg.jpg',
         debateScore: 0,
         debateWins: 0
     }
-    {
-        firstName:
-        lastName:
-        image: 
-        debateScore: 0,
-        debateWins: 0
-    }
-]
+];
 
- Sen. , Sen. Cory Booker, Sen. Kamala Harris, ex-San Antonio Mayor Julian Castro, Rep. Tulsi Gabbard, former W. Va. state Sen. Richard Ojeda, former Rep. John Delaney, author Marianne Williamson and former tech executive Andrew Yang, Kirsten Gillibrand, South Bend, Ind., Mayor Pete Buttigieg
+export default candidates;
