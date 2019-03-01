@@ -14,3 +14,5 @@
 1. Add timer to "Start" and "End" debate buttons and display total debate time onscreen when user clicks "End Debate" button.
 2. Share to Facebook, Share to Twitter functionality
 3. Create "Debates" for each candidate and assign a score for number of debate wins (perhaps debate averages, etc?)
+4. Apply styles to debate winner and losers
+
