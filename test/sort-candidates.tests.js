@@ -1,3 +1,4 @@
+import sortCandidatesByDebateScore from '../src/candidates-sort-component.js';
 const test = QUnit.test;
 
 const candidates = [
@@ -8,18 +9,6 @@ const candidates = [
     { name: 'bill', debateScore: 0 },
     { name: 'ted', debateScore: -1 },
 ];
-
-function sortCandidatesByDebateScore(candidates) {
-    return candidates.sort((a, b) => {
-        if(a.debateScore === b.debateScore) {
-            return 0;
-        }
-        if(a.debateScore > b.debateScore) {
-            return -1;
-        }
-        return 1;
-    });
-}
 
 test('sort candidate list by debateScore', assert => {
 
